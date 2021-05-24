@@ -1,0 +1,66 @@
+.mainWindow{
+     -fx-background-color: #FFB6C1;
+     -fx-background-image: url("store.png");
+     -fx-background-repeat: stretch;
+     -fx-background-size: 900 506;
+     -fx-background-position : center center
+}
+.menuBar{
+ -fx-background-color: #9932CC;
+  -fx-font-size: 15.0px;
+}
+
+.labelTitle{
+    -fx-background-color: #9932CC;
+    -fx-text-fill: #f7f7f7;
+    -fx-font-size: 20.0px;
+   -fx-text-alignment: center;
+
+}
+.labelTotal{
+    -fx-text-fill: #000000;
+    -fx-font-size: 26.0px;
+}
+.labelForm{
+-fx-text-fill: #007af4;
+}
+.button{
+   -fx-background-color: #9932CC;
+   -fx-text-fill: #f0ece2;
+   -fx-min-width: 84;
+   -fx-min-height: 40;
+
+}
+.boxTotal{
+-fx-background-color:#D3D3D3;
+
+}
+.table-row-cell{
+ -fx-background-color: -fx-table-cell-border-color, #FFB6C1;
+    -fx-background-insets: 0, 0 0 1 0;
+
+
+}
+.TopButton{
+   -fx-background-color: #DCDCDC;
+   -fx-text-fill:  #9932CC;
+   -fx-min-width: 200;
+   -fx-min-height: 25;
+}
+
+.VboxLeftButton{
+ -fx-text-fill: #000000;
+ -fx-min-width: 84;
+ -fx-min-height: 124;
+ -fx-background-color: #FFB6C1;
+
+}
+.Box{
+-fx-border-color: #9932CC;
+    -fx-border-insets: 5;
+    -fx-border-width: 3;
+    -fx-border-style: dashed;
+
+}
+
+
